@@ -1,0 +1,274 @@
+/*img1*/
+.content .center #article ul li .img1{
+	    box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.content .center #article ul li .img2{
+	    box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.content .center #article ul li .img3{
+	    box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.content .center #article ul li .img4{
+	    box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.content .center #article ul li .img5{
+	    box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.content .center #article ul li .img6{
+	    box-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+.content .center #article ul li .title-box {
+	background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 202px;
+    left: 304px;
+    margin-top: -201px;
+    position: absolute;
+    width: 254px;
+}
+.content .center #article ul li a:hover .title-box {
+	top: 150px;
+	-webkit-transition: top 0.2s ease-out 0s;
+	transition:top 0.2s ease-out 0s;
+	visibility: hidden;
+}
+.content .center #article  ul li .headline{
+	padding-top: 50px;
+	padding-left:30px;
+	text-align:center;
+	color:white;
+	text-transform:uppercase;
+}
+.content .center #article ul li .title-box .plus{
+	padding-top: 50px;
+	padding-left:22px;
+	text-align:center;
+	color:skyblue;
+	font-weight:bold;
+}
+/*img2*/
+.content .center #article ul li .title-box2 {
+	background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 201px;
+    left: 574px;
+    margin-top: -201px;
+    position: absolute;
+    width: 253px;
+}
+.content .center #article ul li a:hover .title-box2 {
+	top: 150px;
+	-webkit-transition: top 0.2s ease-out 0s;
+	transition:top 0.2s ease-out 0s;
+	visibility: hidden;
+}
+.content .center #article  ul li .headline2{
+	padding-top: 50px;
+	padding-left:30px;
+	text-align:center;
+	color:white;
+	text-transform:uppercase;
+}
+.content .center #article ul li .title-box2 .plus2{
+	padding-top: 50px;
+	padding-left:22px;
+	text-align:center;
+	color:skyblue;
+	font-weight:bold;
+}
+/*img3*/
+.content .center #article ul li .title-box3 {
+	background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 205px;
+    left:847px;
+    margin-top: -202px;
+    position: absolute;
+    width: 254px;
+}
+.content .center #article ul li a:hover .title-box3 {
+	top: 150px;
+	-webkit-transition: top 0.2s ease-out 0s;
+	transition:top 0.2s ease-out 0s;
+	visibility: hidden;
+}
+.content .center #article  ul li .headline3{
+	padding-top: 50px;
+	padding-left:30px;
+	text-align:center;
+	color:white;
+	text-transform:uppercase;
+	line-height:10px;
+}
+.content .center #article ul li .title-box3 .plus3{
+	padding-top: 50px;
+	padding-left:22px;
+	text-align:center;
+	color:skyblue;
+	font-weight:bold;
+}
+/*ol list*/
+.content .center #article ol{
+	background-size: 95px 69px;
+    list-style-type: none;
+    margin:7px -225px 23px -77px;
+    text-align: center;
+}
+.content .center #article ol li { 
+	display: inline-block;
+    padding: 8px;
+}
+}
+.content .center #article ol li img{
+	text-decoration: none;
+	padding: .2em 1em;
+}
+/*img4*/
+.content .center #article ol li .title-box4 {
+	background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    height: 202px;
+    left:303px;
+    margin-top: -201px;
+    position: absolute;
+    width: 253px;
+}
+.content .center #article ol li a:hover .title-box4 {
+	top: 150px;
+	-webkit-transition: top 0.2s ease-out 0s;
+	transition:top 0.2s ease-out 0s;
+	visibility: hidden;
+}
+.content .center #article  ol li .headline4{
+	padding-top: 50px;
+	padding-left:30px;
+	text-align:center;
+	color:white;
+	line-height:10px;
+	text-transform:uppercase;
+}
+.content .center #article ol li .title-box4 .plus4{
+	padding-top: 50px;
+	padding-left:22px;
+	text-align:center;
+	color:skyblue;
+	font-weight:bold;
+}
+/*img5*/
+.content .center #article ol li .title-box5 {
+	background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    height: 203px;
+    left: 574px;
+    margin-top: -202px;
+    position: absolute;
+    width: 252px;
+}
+.content .center #article ol li a:hover .title-box5 {
+	top: 150px;
+	-webkit-transition: top 0.2s ease-out 0s;
+	transition:top 0.2s ease-out 0s;
+	visibility: hidden;
+}
+.content .center #article  ol li .headline5{
+	padding-top: 50px;
+	padding-left:30px;
+	text-align:center;
+	color:white;
+	text-transform:uppercase;
+}
+.content .center #article ol li .title-box5 .plus5{
+	padding-top: 50px;
+	padding-left:22px;
+	text-align:center;
+	color:skyblue;
+	font-weight:bold;
+}
+/*img6*/
+.content .center #article ol li .title-box6 {
+	background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    height: 203px;
+    left:870px;
+    margin-top: -201px;
+    position: absolute;
+    width: 258px;
+}
+.content .center #article ol li a:hover .title-box6 {
+	top: 150px;
+	-webkit-transition: top 0.2s ease-out 0s;
+	transition:top 0.2s ease-out 0s;
+	visibility: hidden;
+}
+.content .center #article  ol li .headline6{
+	padding-top: 50px;
+	padding-left:30px;
+	text-align:center;
+	color:white;
+	text-transform:uppercase;
+}
+.content .center #article ol li .title-box6 .plus6{
+	padding-top: 50px;
+	padding-left:22px;
+	text-align:center;
+	color:skyblue;
+	font-weight:bold;
+}
+<ul>
+									<li><a href="#"><img  class="img1" alt=""src="/home/vimala/Learn_webdeveloper/image/phone1.jpg">
+									     <div class="title-box">
+							            	<h4 class="headline"> iphone <br><br> <br><br>1 </h4>
+									        <span class="plus">
+										       <i class="fa fa-plus-circle"></i>
+					    	               </span>
+					                    </div>
+					                    </a>
+									</li>
+									<li><a href="#"><img  class="img2" alt=""src="/home/vimala/Learn_webdeveloper/image/phone2.jpg">
+										<div class="title-box2">
+							            	<h4 class="headline2"> iphone<br><br><br><br>2 </h4>
+									        <span class="plus2">
+										       <i class="fa fa-plus-circle"></i>
+					    	               </span>
+					                    </div>
+					                    </a>
+									</li>
+									<li><a href="#"><img  class="img3" alt="" src="/home/vimala/Learn_webdeveloper/image/phone3.jpg">
+										<div class="title-box3">
+							            	<h4 class="headline3">  iphone <br> <br><br><br>3  </h4>
+									        <span class="plus3">
+										       <i class="fa fa-plus-circle"></i>
+					    	               </span>
+					                    </div>
+					                    </a>
+									</li>
+								</ul>
+								<ol>
+									<li><a href="#"><img  class="img4" alt="" src="/home/vimala/Learn_webdeveloper/image/iPhone4.jpg">
+											<div class="title-box4">
+							            	<h4 class="headline4"> iphone <br> <br><br><br>4 </h4>
+									        <span class="plus4">
+										       <i class="fa fa-plus-circle"></i>
+					    	               </span>
+					                    </div>
+					                    </a>
+									</li>
+									<li><a href=""><img  class="img5" alt="" src="/home/vimala/Learn_webdeveloper/image/phone5.jpg">
+										<div class="title-box5">
+							            	<h4 class="headline5"> iphone <br> <br><br><br>5<h4>
+									        <span class="plus5">
+										       <i class="fa fa-plus-circle"></i>
+					    	               </span>
+					                    </div>
+					                    </a>
+									</li>
+									<li><a href="#"><img  class="img6" alt="" src="/home/vimala/Learn_webdeveloper/image/phone6.jpg">
+										<div class="title-box6">
+							            	<h4 class="headline6"> iphone <br> <br><br><br>6</h4>
+									        <span class="plus6">
+										       <i class="fa fa-plus-circle"></i>
+					    	               </span>
+					                    </div>
+					                    </a>
+									</li>	
+								

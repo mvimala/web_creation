@@ -1,0 +1,411 @@
+.header
+{
+	background-color: rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid #ADADAD;
+    color: #FFFFFF;
+    line-height: 50px;
+    position:fixed;
+    width: 100%;
+    z-index: 5;
+	display:inline-block;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-weight: bold;
+	width:100%;
+	text-decoration:none;
+}
+.header a {
+    color: gold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.header .center a {
+    font-size: 37px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight:bolder;
+}
+.header .right a {
+    font-size: 15px;
+    padding: 7px;
+    text-align: end;
+    text-decoration: none;
+}
+.header .left {
+    float: left;
+    padding: 29px 0 0 56px;
+    position: absolute;
+    top: -31px;
+    width: 20%;
+}
+.header .right {
+    float: right;
+    padding: 0 7px 0 0;
+    text-align: end;
+    width: 20%;
+}
+.header .center {
+    float: left;
+    font-weight: bolder;
+    margin: 0 0 0 234px;
+    text-align: center;
+    width: 60%;
+}
+.header .right .sign {
+    background-color: purple;
+}
+.content {
+	width:100%;
+	height:100%;
+	color: #FFFFFF;
+    line-height: 7px;
+    position:relative;
+    height: 100%;
+    display:inline-block;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:none;
+	overflow:hidden;
+}
+.content .cf {
+  position:relative;
+  margin:0 auto;
+  height:500px;
+  width:100%;
+}
+.content .cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.content .cf img.img2:hover {
+  opacity:0;
+ }
+.content .center #article {
+	background: url("/home/vimala/Learn_webdeveloper/image/iphone-widescreen.jpg");
+	background-size:1210px 700px;
+	background-repeat:no-repeat;
+    width:100%;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+    top:25px;
+ }
+.content .center #article .label {
+	background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+h3{
+	color: green;
+    font-size: 34px;
+    font-weight: 900;
+    text-align: center;
+}
+ p{
+	color: gold;
+    font-size: 12px;
+    font-weight: bolder;
+    line-height: 3px;
+    text-align: center;
+}
+
+.content .center #article ul{
+	background-size: 95px 69px;
+    list-style-type: none;
+	margin:0px -467px 25px -68px;
+    text-align: center;
+}
+.content .center #article ul li { 
+	display: inline-block; 
+	padding: 8px;
+}
+.content .center #article ul li img{
+	text-decoration: none;
+}
+.content .center #article ol{
+	background-size: 95px 69px;
+    list-style-type: none;
+    margin:0px -467px 25px -68px;
+    text-align: center;
+}
+.content .center #article ol li { 
+	display: inline-block;
+    padding: 8px;
+}
+}
+.content .center #article ol li img{
+	text-decoration: none;
+	
+}
+.ih-item {
+  position: relative;
+  transition: all 0.35s ease-in-out;
+  text-align:center;
+}
+.ih-item,.ih-item * {
+  box-sizing: border-box;
+}
+.ih-item a {
+  color: #333;
+}
+.ih-item a:hover {
+  text-decoration: none;
+}
+.ih-item img {
+  width: 100%;
+  height: 100%;
+}
+.ih-item.square {
+  position: relative;
+  width: 210px;
+  height: 158px;
+  border: 8px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ih-item.square.effect {
+  overflow: hidden;
+}
+.ih-item.square.effect .img {
+  transition: all 0.35s ease-in-out;
+  transform: scale(1);
+}
+.ih-item.square.effect .info {
+  background: #333333;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.square.effect .info h4 {
+  /*background: rgba(12, 34, 52, 0.6);*/
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  padding: 25px;
+  background: #111111;
+  margin: 30px 0 0 0;
+}
+.ih-item.square.effect .info .plus {
+  color: skyblue;
+  font-size: 25px;
+  font-style: italic;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  line-height:40px;
+}
+.ih-item.square.effect a:hover .img {
+  transform: scale(1.2);
+}
+.ih-item.square.effect a:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+.ih-item.square.effect.top_to_bottom .info {
+  transform: translateY(-100%);
+}
+.ih-item.square.effect.top_to_bottom a:hover .info {
+  transform: translateY(0);
+}
+/*video*/
+.content .video{
+	background:url("/home/vimala/Learn_webdeveloper/image/Wallpaper.jpg");
+	background-repeat:no-repeat;
+    min-height: 400px;
+    width:100%;
+    padding: 60px 0;
+    position: relative;
+    top: 54px;
+}
+/*image*/
+.content .image3{
+	background:url("/home/vimala/Learn_webdeveloper/image/im/pink-apple-wallpaper.jpg");
+	background-repeat:no-repeat;
+    min-height:700px;
+    width:100%;
+    top:71px;
+    position: relative;
+    text-align:center;
+    text-decoration:none;
+    background-size:1211px 700px;
+}
+.content .image3 .label {
+	background-color: green;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 12px 25px 9px 30px;
+    text-transform: uppercase;
+}
+.content .image3 a {
+	text-decoration:none;
+}
+.content .image3 h3{
+	font-size:24px;
+	color:gold;
+	text-transform: uppercase;
+}
+.content .image3 .p1{
+	color:white;
+	line-height:23px;
+	letter-spacing:5px;
+	font-size:15px;
+}
+.content .image3 form {
+    padding: 271px 9px 12px 113px;
+    text-align: center;
+}
+form{
+	margin:0;
+}
+.content .image3 form .city-search a {
+    color: #000000;
+    font-size: 13px;
+    padding: 15px;
+}
+.content .image3 .view{
+	color:gold;
+	font-weight:bold;
+	font-size:15px;
+}
+.footer{
+	width:100%;
+	height:100%;
+	position:relative;
+	display:inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer .up{
+	height:50%;
+	width:100%;
+}
+.footer .down{
+	border:2px soild green;
+	float:right;
+	height:50%;
+	width:100%;
+	text-align:right;
+	background-color:black;
+	text-align:end;
+	padding: 10px 20px ;
+}
+.footer .down #nav a i{
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 47px;
+    color: #000000;
+    display: inline-block;
+    font-size: 15px;
+    height: 17px;
+    margin-right: 13px;
+    padding-top: 4px;
+    text-align: center;
+    width: 26px;
+	
+}
+.footer .up .left #nav a i{
+	background: none repeat scroll 0 0 #000000;
+    border-radius: 80px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 10px;
+    height: 15px;
+    margin-right: 9px;
+    padding-top: 2%;
+    text-align: center;
+    width: 26px;
+} 
+.footer .up .left{
+	background-color:white;
+	height:20%;
+	width:30%;
+	float:left;
+	padding: 20px;
+	color:white;
+}
+.footer .up .center{
+	height:20%;
+	width:70%;
+	float:left;
+	text-align:center;
+	margin: -142px 0 0 190px;
+}
+.footer .up .center button{
+	background-color: black;
+    border-radius: 22px;
+    color: white;
+    height: 38px;
+    margin-top:52px;
+}
+.footer .up .center a{
+	text-decoration:none;
+}
+.footer .up .left #nav a:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #070716;
+    color: #070716;
+}
+.footer .up .left # nav a:active, a:hover {
+    outline: 0 none;
+}
+.footer .up .center #sign {
+	text-align:center;
+	margin-top:-23px;
+	background-color:skyblue;
+}
+.footer .up .center #center_up{
+	color: black;
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    padding: 0;
+}
+.footer .up .center #center_up a{
+	color:black;
+}
+.footer .up .center #center_down {
+	font-size:11px;
+	padding:0px;
+	letter-spacing:2px;
+	line-height:23px;
+}
+.footer .up .center #center_down a{
+	color:#3d3d3d;
+}
+.footer .up .center .english {
+	font-size:14px;
+	color:#006400;
+	font-weight:bold;
+	line-height:43px;
+}
+.footer .up .left #nav a i a i:hover {
+opacity: .7;
+}
